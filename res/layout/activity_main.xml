@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:weightSum="10" >
+
+    <RelativeLayout android:id="@+id/one"
+         android:layout_width="fill_parent"
+          android:layout_height="0dp"       
+            android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/Word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/word"
+            android:layout_centerVertical="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="@dimen/text_size" />
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_centerVertical="true"
+             android:paddingLeft="10dp"
+             android:text="00"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textSize="@dimen/zeroes" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:paddingRight="10dp"
+             android:text="00"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textSize="@dimen/zeroes" />
+
+    </RelativeLayout>
+
+    <RelativeLayout android:id="@+id/two"
+         android:layout_width="fill_parent"
+          android:layout_height="0dp"       
+            android:layout_weight="1">
+     <TextView
+             android:id="@+id/Color"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerHorizontal="true"
+             android:text="@string/color"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             android:textSize="@dimen/text_size" />         
+    </RelativeLayout>
+    
+    <RelativeLayout android:id="@+id/three"
+         android:layout_width="fill_parent"
+          android:layout_height="0dp"       
+            android:layout_weight="1">
+
+     <TextView
+         android:id="@+id/textView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:paddingLeft="10dp"
+         android:text="00"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textSize="@dimen/zeroes" />
+
+         <ProgressBar
+             android:id="@+id/progressBar1"
+             style="?android:attr/progressBarStyleHorizontal"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_centerHorizontal="true"
+             android:max="10"
+             android:minWidth="250dp" />
+         </RelativeLayout>
+
+
+
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="7" >
+        
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/ImageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/ImageView5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/ImageView9"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView10"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/ImageView13"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView14"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView15"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+
+            <ImageView
+                android:id="@+id/ImageView16"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:src="@drawable/blue" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="10" >
+    
+    <RelativeLayout android:id="@+id/one"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"       
+         android:layout_weight="1">
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="HELP"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35sp" />
+</RelativeLayout>
+<RelativeLayout
+    android:id="@+id/three"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="8"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp" >
+
+      <ImageView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:src="@drawable/finallll" />
+
+</RelativeLayout>
+<RelativeLayout android:id="@+id/ele"
+         android:layout_width="fill_parent"
+         android:layout_height="0dp"       
+         android:layout_weight="1">
+
+      <ImageButton
+          android:id="@+id/imageButton1"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:background="@null"
+          android:paddingBottom="10dp"
+          android:src="@drawable/back" />
+
+</RelativeLayout>
+
+</LinearLayout>
